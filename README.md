@@ -187,6 +187,12 @@ Convention: `x()` throws, `tryX()` returns `{ ok: true, value } | { ok: false, e
 - **Length limit**: defaults to 1023 characters. Bech32's error-detection
   guarantees are weaker for strings longer than 90 characters.
 
+## Disclaimer
+
+**Use at your own risk.** This software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and non-infringement. The author accepts **no responsibility or liability** for any loss of funds, assets, data or any other damages arising from the use or misuse of this library, including incorrect address parsing, encoding or validation.
+
+This library is **not audited**. It is not financial advice and is not affiliated with or endorsed by the Cardano Foundation, IOG, EMURGO or Intersect. Always verify addresses independently before sending funds, and test thoroughly before using it in production or with real assets.
+
 ## Contributing
 
 This repository is maintained by a single author and does not accept external
