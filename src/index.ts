@@ -55,3 +55,12 @@ export {
   type RewardAddressInfo,
   type ShelleyAddressInfo,
 } from "./address.js";
+export {
+  buildBaseAddress,
+  buildEnterpriseAddress,
+  buildPointerAddress,
+  buildRewardAddress,
+  encodeAddress,
+  type CredentialInput,
+  type PointerInput,
+} from "./builders.js";
